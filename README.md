@@ -1,82 +1,132 @@
-# Hi, I'm Alex T. Rosen
 
-Cloud Consultant at Spaulding Ridge · Informatics, Indiana University · Greater Chicago Area · [LinkedIn](https://www.linkedin.com/in/alexrosen03/)
+# Hi, I'm Alex T. Rosen 👋
 
-I design and ship software with [Claude Code](https://claude.com/claude-code) as my AI pair programmer. I set the direction, write the briefs, review every change and decide what merges; Claude writes most of the code. Every project lives in its own repository, moves through branches and pull requests, and ends up as a world in **The Constellation**, a 3D command center I built to run them all.
+**AI systems · Full-stack software · Autonomous agents · Interactive 3D**
 
-**Since October 2026:** about 40 projects, 2,700 commits, and about 177 hours of measured Claude Code session time.
+Cloud Consultant at **Spaulding Ridge** · Informatics, **Indiana University** · Chicago, Illinois  
+[LinkedIn](https://www.linkedin.com/in/alexrosen03/) · [Portfolio repository](https://github.com/AlexRosen23/alextrosen-portfolio)
 
-> Most repositories below are private while they mature. Each one has a README with what it does, its stack, how to run it and how long it took. Ask me for access to any of them.
+I build software that connects **AI, automation, simulation, and interactive experiences**. My projects range from multi-agent engineering tools and algorithmic trading research to robotics interfaces, geospatial digital twins, and games.
 
-## Flagship
+I develop with [Claude Code](https://claude.com/claude-code) as an AI engineering partner. **I set the direction, define requirements and architecture, review changes, run evaluations, and decide what ships; Claude writes much of the implementation.** That division of work is intentional and transparent. I care about whether a system is useful, testable, and reproducible—not who typed each line.
 
-**[The Constellation](https://github.com/AlexRosen23/constellation)**: a local-first 3D command center where every project is a world you can fly to and every Claude Code agent shows up where it is working. TypeScript, React Three Fiber, Node.js, SQLite. 1,600+ commits, 328 merged PRs, about 410 test files.
+Most of my work connects through **[The Constellation](https://github.com/AlexRosen23/constellation)**: a local-first, interactive 3D command center where independent projects appear as explorable worlds and coding agents can be monitored in context.
 
-## Projects
+## By the numbers
 
-### Command centers and AI agents
-| Project | What it is |
+| Projects | Git commits | Measured Claude Code session time | Illustrative conventional-development effort |
+|:--|:--|:--|:--|
+| **~40** | **~2,700** | **~177 hours** | **~1,000–3,000 hours** |
+
+*Snapshot of work since October 2026. The first three numbers are project/activity counts; the final figure is a rough scope-based estimate, assuming 25–75 hours of conventional solo development per project. It is **not measured time saved**, and the 177 hours reflect measured Claude Code sessions—not all human planning, review, or testing time. Project maturity and complexity vary.*
+
+> **About private repositories:** Many projects remain private while I refine their architecture, tests, security boundaries, and integrations. Their READMEs describe purpose, stack, setup, and measured development activity. I'm happy to discuss the work and provide access when appropriate.
+
+## Flagship: The Constellation
+
+### [The Constellation](https://github.com/AlexRosen23/constellation)
+
+**One interactive environment for an expanding ecosystem of independent software.**
+
+A local-first 3D command center that represents projects as worlds, connects engineering workflows, and shows where Claude Code and other coding agents are working. It brings together visualization, orchestration, project telemetry, and navigation without requiring each project to give up its own repository or runtime.
+
+**Stack:** TypeScript · React Three Fiber · Node.js · SQLite  
+**Repository activity:** 1,600+ commits · 328 merged PRs · ~410 test files
+
+## Selected projects
+
+These are a few of the systems that best represent what I'm building:
+
+| Project | Focus | What it does |
+|---|---|---|
+| [Scalp City](https://github.com/AlexRosen23/scalp-city) | Trading research | Paper-trading research platform with market experiments and a trading-city dashboard; **simulated only** |
+| [Chicago Alive](https://github.com/AlexRosen23/chicago-alive) | 3D / geospatial | Open-data-driven Chicago digital twin built with Blender and Three.js |
+| [ELARA Command Deck](https://github.com/AlexRosen23/elara-command-deck) | AI / hardware | Connects a 12-key physical macro pad to coding-agent and voice workflows |
+| [The Arena](https://github.com/AlexRosen23/the-arena) | Agent evaluation | Reproducible competitions for tool-using AI agents with independent evaluation |
+| [BLUEPRINT ZERO](https://github.com/AlexRosen23/blueprint-zero) | Generative CAD | Turns a sketch and written requirements into editable multi-part CAD with STEP/STL export |
+| [Last Legend](https://github.com/AlexRosen23/LASTLEGEND) | Games / simulation | Public browser-based battle-royale simulator |
+
+## Project directory
+
+### AI agents & command centers
+
+| Project | What it does |
 |---|---|
 | [Multi-AI Command Center](https://github.com/AlexRosen23/multi-ai-command-center) | Local control surface for Claude Code and six fallback coding agents |
-| [ELARA Command Deck](https://github.com/AlexRosen23/elara-command-deck) | Turns a 12-key macro pad into a command deck for coding agents and voice |
-| [NexMacro for Mac](https://github.com/AlexRosen23/nexmacro-mac) | Native macOS (Swift) configurator for that macro pad |
-| [The Arena](https://github.com/AlexRosen23/the-arena) | Reproducible tournaments for tool-using AI agents, with an independent evaluator |
-| [Claude Free Swarm](https://github.com/AlexRosen23/claude-free-swarm) | A Claude Code-led swarm of local and free-tier models (MCP server, CLI) |
-| [Claude Skills](https://github.com/AlexRosen23/claude-skills) | My Claude Code efficiency toolkit: custom skills and a validation suite |
+| [ELARA Command Deck](https://github.com/AlexRosen23/elara-command-deck) | Physical macro-pad interface for coding agents and voice commands |
+| [NexMacro for Mac](https://github.com/AlexRosen23/nexmacro-mac) | Native Swift macOS configurator for the macro pad |
+| [The Arena](https://github.com/AlexRosen23/the-arena) | Reproducible agent tournaments with independent evaluation |
+| [Claude Free Swarm](https://github.com/AlexRosen23/claude-free-swarm) | Claude Code-led orchestration of local and free-tier models, with MCP and CLI interfaces |
+| [Claude Skills](https://github.com/AlexRosen23/claude-skills) | Custom development skills, efficiency tooling, and validation |
 
-### Maker tools: a sentence in, a real thing out
-| Project | What it is |
+### Generative maker tools
+
+*Tools that turn natural-language instructions and real-world inputs into editable outputs.*
+
+| Project | What it does |
 |---|---|
-| [BLUEPRINT ZERO](https://github.com/AlexRosen23/blueprint-zero) | Sketch + sentence → editable multi-part CAD assembly with STEP/STL export |
-| [MAKESHIFT](https://github.com/AlexRosen23/makeshift) | Photos + caliper measurements → printable replacement part with fit checks |
-| [SKIN](https://github.com/AlexRosen23/skin) | Object dimensions + style prompt → custom printable shell |
-| [FOLD](https://github.com/AlexRosen23/fold) | Sentence + object size → custom packaging, folded in 3D and as a 1:1 dieline |
-| [SPARK](https://github.com/AlexRosen23/spark) | Described reaction → state machine, simulator, ESP32 wiring and firmware |
-| [BRIDGE](https://github.com/AlexRosen23/bridge) | Map real inputs (keys, gamepad, WebHID) to actions in plain English |
+| [BLUEPRINT ZERO](https://github.com/AlexRosen23/blueprint-zero) | Sketch + description → multi-part CAD assembly with STEP/STL export |
+| [MAKESHIFT](https://github.com/AlexRosen23/makeshift) | Photos + caliper measurements → printable replacement parts with fit checks |
+| [SKIN](https://github.com/AlexRosen23/skin) | Object dimensions + style prompt → printable custom shell |
+| [FOLD](https://github.com/AlexRosen23/fold) | Description + object dimensions → 3D packaging and full-scale dielines |
+| [SPARK](https://github.com/AlexRosen23/spark) | Described hardware reaction → state machine, simulation, ESP32 wiring, and firmware |
+| [BRIDGE](https://github.com/AlexRosen23/bridge) | Plain-English mapping from keyboard, gamepad, or WebHID inputs to actions |
 | [SYNAPSE Flow](https://github.com/AlexRosen23/synapse-flow) | Prompt-to-integration builder for typed, permission-scoped local workflows |
-| [FRANKENAPP](https://github.com/AlexRosen23/frankenapp) | Prompt-to-app mashups over your own data |
-| [AIRWAVE](https://github.com/AlexRosen23/airwave) | Hand-tracked, ten-finger beat-making workstation in the browser |
+| [FRANKENAPP](https://github.com/AlexRosen23/frankenapp) | Prompt-driven app combinations built around user-owned data |
+| [AIRWAVE](https://github.com/AlexRosen23/airwave) | Ten-finger, hand-tracked beat-making workstation in the browser |
 
-### 3D, simulation and forecasting
-| Project | What it is |
-|---|---|
-| [Chicago Alive](https://github.com/AlexRosen23/chicago-alive) | 3D digital twin of the Loop and the Chicago River from open data (Blender + Three.js) |
-| [Chronos](https://github.com/AlexRosen23/chronos) | Evidence-linked historical 3D reconstruction explorer |
-| [Mirror](https://github.com/AlexRosen23/mirror) | Photos-to-3D reconstruction that is honest about what is recovered versus guessed |
-| [Vanguard](https://github.com/AlexRosen23/vanguard) | Simulated warehouse-robot academy: classical planning versus learned policies |
-| [Oracle](https://github.com/AlexRosen23/oracle) | Auditable rain forecasts for 35 cities: backtests, immutable ledger, calibration |
-| [Sentinel](https://github.com/AlexRosen23/sentinel) | Observability and dry-run self-healing for toy services |
+### 3D, simulation & forecasting
 
-### Games
-| Project | What it is |
+| Project | What it does |
 |---|---|
-| [Roblox Game Factory](https://github.com/AlexRosen23/roblox-game-factory) | AI-assisted Roblox game studio with a local HQ dashboard |
-| [Orbital Foundry](https://github.com/AlexRosen23/orbital-foundry) | Native macOS aerospace engineering sandbox (Godot) |
-| [Project Meridian](https://github.com/AlexRosen23/project-meridian) | Expedition game driven by validated weather and earthquake data |
-| [Last Legend](https://github.com/AlexRosen23/LASTLEGEND) | Browser battle-royale simulator (public) |
+| [Chicago Alive](https://github.com/AlexRosen23/chicago-alive) | Blender + Three.js digital twin of Chicago using open geographic data |
+| [Chronos](https://github.com/AlexRosen23/chronos) | Evidence-linked explorer for historical 3D reconstructions |
+| [Mirror](https://github.com/AlexRosen23/mirror) | Photos-to-3D workflow that distinguishes recovered details from estimates |
+| [Vanguard](https://github.com/AlexRosen23/vanguard) | Simulated warehouse robotics environment comparing classical planning and learned policies |
+| [Oracle](https://github.com/AlexRosen23/oracle) | Auditable rainfall forecasts for 35 cities, with backtests and calibration |
+| [Sentinel](https://github.com/AlexRosen23/sentinel) | Service observability and dry-run self-healing experiments |
 
-### Data, research and markets
-| Project | What it is |
+### Games & interactive worlds
+
+| Project | What it does |
 |---|---|
-| [DataAtlas](https://github.com/AlexRosen23/dataatlas) | Interactive museum of public data: 15 experiences from U.S. and NASA datasets |
-| [NFL Big Data Bowl](https://github.com/AlexRosen23/NFL-Big-Data-Bowl) | Research pipeline and scouting app for the NFL Big Data Bowl 2027 |
-| [RecallRadar](https://github.com/AlexRosen23/recallradar) | Self-updating search site for NHTSA and CPSC recalls |
-| [MacroKitchen](https://github.com/AlexRosen23/macro-kitchen) | Recipe-nutrition calculators on USDA FoodData Central |
-| [Scalp City](https://github.com/AlexRosen23/scalp-city) | Paper-trading research platform with a trading-city dashboard (simulated only) |
+| [Roblox Game Factory](https://github.com/AlexRosen23/roblox-game-factory) | AI-assisted Roblox game production with a local HQ dashboard |
+| [Orbital Foundry](https://github.com/AlexRosen23/orbital-foundry) | Native macOS aerospace engineering sandbox built with Godot |
+| [Project Meridian](https://github.com/AlexRosen23/project-meridian) | Expedition game using validated weather and earthquake data |
+| [Last Legend](https://github.com/AlexRosen23/LASTLEGEND) | Public browser battle-royale simulator |
+
+### Data, research & markets
+
+| Project | What it does |
+|---|---|
+| [DataAtlas](https://github.com/AlexRosen23/dataatlas) | Interactive museum of 15 public-data experiences, including U.S. and NASA datasets |
+| [NFL Big Data Bowl](https://github.com/AlexRosen23/NFL-Big-Data-Bowl) | Research pipeline and scouting app for the 2027 competition |
+| [RecallRadar](https://github.com/AlexRosen23/recallradar) | Searchable, update-oriented NHTSA and CPSC recall explorer |
+| [MacroKitchen](https://github.com/AlexRosen23/macro-kitchen) | USDA FoodData Central-powered recipe nutrition calculations |
+| [Scalp City](https://github.com/AlexRosen23/scalp-city) | Short-duration options research and paper-trading experiments; no live trading claimed |
 | [CYCLE 96](https://github.com/AlexRosen23/cycle96) | Paper-trading research for 15-minute prediction markets |
-| [Linewise](https://github.com/AlexRosen23/linewise) | Sports-betting research and record-keeping; never places bets |
+| [Linewise](https://github.com/AlexRosen23/linewise) | Sports-betting research and record-keeping; does not place bets |
 
-### Products and personal
-| Project | What it is |
+### Products & personal projects
+
+| Project | What it does |
 |---|---|
 | [PuzzleForge](https://github.com/AlexRosen23/puzzleforge) | Generator of machine-validated printable puzzle books |
-| [DevForge](https://github.com/AlexRosen23/devforge) | Free browser-only developer tools |
-| [alextrosen.com](https://github.com/AlexRosen23/alextrosen-portfolio) | My space-themed portfolio site (Astro + Three.js) |
+| [DevForge](https://github.com/AlexRosen23/devforge) | Free browser-based developer utilities |
+| [alextrosen.com](https://github.com/AlexRosen23/alextrosen-portfolio) | Space-themed personal portfolio built with Astro and Three.js |
 
 ## How I work
 
-- **Branches and pull requests for everything**, with secret scanning (gitleaks) before every push.
-- **Honest software:** dashboards show only real data; anything simulated or unmeasured is labelled.
-- **Measured AI use:** each README reports active Claude Code time and token use, measured from session transcripts, with prompt-cache reads reported separately so totals aren't inflated.
+**AI-assisted, human-directed.** I use AI extensively for implementation while keeping project direction, architecture decisions, review, and release approval under my control.
 
-**Tools I use most:** TypeScript, React, Three.js, Node.js, Python, SQLite, Vite, Vitest, Playwright, Blender, Godot, Swift, Claude Code.
+**Branch-based development.** Each project has its own repository, with branches, pull requests, and secret scanning using gitleaks before pushes.
+
+**Evidence over demos.** I distinguish live data from synthetic data, measured results from estimates, and working functionality from planned features.
+
+**Reproducibility.** Project READMEs document the stack, setup process, and development activity. Claude Code usage is measured from session transcripts; prompt-cache reads are reported separately to avoid inflated totals.
+
+**Tools I use:** TypeScript · React · Three.js / React Three Fiber · Node.js · Python · SQLite · Vite · Vitest · Playwright · Blender · Godot · Swift · Claude Code
+
+---
+
+*I'm interested in making AI-assisted engineering more capable, transparent, and measurable—and in building systems that become more useful when they're connected.*
