@@ -20,7 +20,7 @@ Most of my work connects through **[The Constellation](https://github.com/AlexRo
 
 *Snapshot of work since October 2026. The first three numbers are project/activity counts; the final figure is a rough scope-based estimate, assuming 25–75 hours of conventional solo development per project. It is **not measured time saved**, and the 177 hours reflect measured Claude Code sessions—not all human planning, review, or testing time. Project maturity and complexity vary.*
 
-> **About private repositories:** Many projects remain private while I refine their architecture, tests, security boundaries, and integrations. Their READMEs describe purpose, stack, setup, and measured development activity. I'm happy to discuss the work and provide access when appropriate.
+> **About private repositories:** Many projects remain private while I refine their architecture, tests, security boundaries, and integrations. Their READMEs describe purpose, stack, setup, and measured development activity. I'm happy to discuss the work and provide access when appropriate. Four are public with full write-ups: [Morrowglass Model Foundry](https://github.com/AlexRosen23/morrowglass-model-foundry), [The Inkfall Vault](https://github.com/AlexRosen23/inkfall-vault), [Spectral Canary Works](https://github.com/AlexRosen23/spectral-canary-works) and [Engineering case studies](https://github.com/AlexRosen23/engineering-case-studies).
 
 ## Flagship: The Constellation
 
@@ -31,7 +31,7 @@ Most of my work connects through **[The Constellation](https://github.com/AlexRo
 A local-first 3D command center that represents projects as worlds, connects engineering workflows, and shows where Claude Code and other coding agents are working. It brings together visualization, orchestration, project telemetry, and navigation without requiring each project to give up its own repository or runtime.
 
 **Stack:** TypeScript · React Three Fiber · Node.js · SQLite  
-**Repository activity:** 1,600+ commits · 328 merged PRs · ~410 test files
+**Repository activity:** 1,700+ commits · 355 merged PRs · 446 unit/integration test files and 133 end-to-end specs
 
 ## Selected projects
 
@@ -39,6 +39,9 @@ These are a few of the systems that best represent what I'm building:
 
 | Project | Focus | What it does |
 |---|---|---|
+| [Morrowglass Model Foundry](https://github.com/AlexRosen23/morrowglass-model-foundry) | Language models · **public** | Small language-model lab: a decoder-only Transformer in plain PyTorch on public-domain Shakespeare, count-based baselines, pre-registered experiments and OpenAI-compatible serving |
+| [The Inkfall Vault](https://github.com/AlexRosen23/inkfall-vault) | Retrieval & access control · **public** | Evidence workbench over fictional legal, finance and policy documents: access control before retrieval, word-for-word citations or abstention, and an audit log |
+| [Spectral Canary Works](https://github.com/AlexRosen23/spectral-canary-works) | MLOps · **public** | Model-release lab: offline gates, shadow, a 10% canary with statistical guardrails and audited automatic rollback; real scikit-learn models, simulated traffic, plus an LLM prompt-release lane |
 | [Scalp City](https://github.com/AlexRosen23/scalp-city) | Trading research | Paper-trading research platform with market experiments and a trading-city dashboard; **simulated only** |
 | [Chicago Alive](https://github.com/AlexRosen23/chicago-alive) | 3D / geospatial | Open-data-driven Chicago digital twin built with Blender and Three.js |
 | [ELARA Command Deck](https://github.com/AlexRosen23/elara-command-deck) | AI / hardware | Connects a 12-key physical macro pad to coding-agent and voice workflows |
@@ -58,6 +61,15 @@ These are a few of the systems that best represent what I'm building:
 | [The Arena](https://github.com/AlexRosen23/the-arena) | Reproducible agent tournaments with independent evaluation |
 | [Claude Free Swarm](https://github.com/AlexRosen23/claude-free-swarm) | Claude Code-led orchestration of local and free-tier models, with MCP and CLI interfaces |
 | [Claude Skills](https://github.com/AlexRosen23/claude-skills) | Custom development skills, efficiency tooling, and validation |
+
+### AI engineering & ML systems
+
+| Project | What it does |
+|---|---|
+| [Morrowglass Model Foundry](https://github.com/AlexRosen23/morrowglass-model-foundry) | Decoder-only Transformer from scratch in PyTorch, baselines, pre-registered ablations and a locked test split; every number read from a saved run (public) |
+| [The Inkfall Vault](https://github.com/AlexRosen23/inkfall-vault) | Permission-aware evidence workbench: cited answers or abstention over fictional documents, two-person approval for briefs; runs on CPU (public) |
+| [Spectral Canary Works](https://github.com/AlexRosen23/spectral-canary-works) | Release and rollback lab for ML models and an LLM prompt lane, with every decision in a hash-chained audit log (public) |
+| [Iron Signal](https://github.com/AlexRosen23/iron-signal) | Predictive maintenance on NASA's simulated C-MAPSS turbofan data: DuckDB + dbt pipeline, remaining-useful-life models behind validation gates, drift replay |
 
 ### Generative maker tools
 
@@ -114,6 +126,7 @@ These are a few of the systems that best represent what I'm building:
 | [PuzzleForge](https://github.com/AlexRosen23/puzzleforge) | Generator of machine-validated printable puzzle books |
 | [DevForge](https://github.com/AlexRosen23/devforge) | Free browser-based developer utilities |
 | [alextrosen.com](https://github.com/AlexRosen23/alextrosen-portfolio) | Space-themed personal portfolio built with Astro and Three.js |
+| [Engineering case studies](https://github.com/AlexRosen23/engineering-case-studies) | Sanitized write-ups of four private projects: how each is built and tested, what went wrong, what was measured (public) |
 
 ## How I work
 
