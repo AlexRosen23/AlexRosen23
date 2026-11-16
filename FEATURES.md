@@ -21,7 +21,7 @@ can see or use updates this file in the same PR (see "Keeping this file true").
 | | |
 | --- | --- |
 | Content | 1 file (`README.md`, 145 lines), no code, no build step |
-| Sections | 6 top-level headings; the project directory has 7 category tables |
+| Sections | 5 main sections (numbers, flagship, selected projects, directory, how I work); the directory has 7 category tables |
 | Projects linked | 40 rows across the 7 category tables, plus 9 "selected projects" and 1 flagship |
 | Public projects named as public | 4 (language-model lab, retrieval workbench, MLOps lab, engineering case studies) |
 | Merged PRs | 1 (PR #1, 2026-11-10) |
