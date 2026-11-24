@@ -4,7 +4,7 @@
 **AI systems · Full-stack software · Autonomous agents · Interactive 3D**
 
 Cloud Consultant at **Spaulding Ridge** · Informatics, **Indiana University** · Chicago, Illinois  
-[LinkedIn](https://www.linkedin.com/in/alexrosen03/) · [Portfolio repository](https://github.com/AlexRosen23/alextrosen-portfolio)
+[LinkedIn](https://www.linkedin.com/in/alexrosen03/) · [Portfolio](https://alextrosen.dev)
 
 I build software that connects **AI, automation, simulation, and interactive experiences**. My projects range from multi-agent engineering tools and algorithmic trading research to robotics interfaces, geospatial digital twins, and games.
 
@@ -123,9 +123,9 @@ These are a few of the systems that best represent what I'm building:
 
 | Project | What it does |
 |---|---|
-| [PuzzleForge](https://github.com/AlexRosen23/puzzleforge) | Generator of machine-validated printable puzzle books |
-| [DevForge](https://github.com/AlexRosen23/devforge) | Free browser-based developer utilities |
-| [alextrosen.com](https://github.com/AlexRosen23/alextrosen-portfolio) | Space-themed personal portfolio built with Astro and Three.js |
+| [PuzzleForge](https://puzzleforge.atrosen1.workers.dev/) | Live: free browser puzzle tools (sudoku, mazes, word search, logic grids) and printable puzzle packs, every puzzle machine-checked for a single solution |
+| [Localpane](https://localpane.atrosen1.workers.dev/) | Live: 12 free developer tools that run entirely in the browser (JSON, regex, SQL, cron, .env, HTTP headers and more), plus optional source-code packages |
+| [alextrosen.dev](https://alextrosen.dev) | Space-themed personal portfolio built with Astro and Three.js |
 | [Engineering case studies](https://github.com/AlexRosen23/engineering-case-studies) | Sanitized write-ups of four private projects: how each is built and tested, what went wrong, what was measured (public) |
 
 ## How I work
